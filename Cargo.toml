@@ -1,0 +1,8 @@
+[package]
+name = "jerevuola"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+yew = { version = "0.19.3"}
+yew-router = "0.16"
