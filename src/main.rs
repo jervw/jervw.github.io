@@ -2,7 +2,7 @@ use yew::prelude::*;
 use yew_router::prelude::*;
 
 mod pages;
-use pages::{home::Home, page_not_found::PageNotFound};
+use pages::{home::Home, page_not_found::PageNotFound, start::Start};
 
 #[derive(Routable, PartialEq, Clone, Debug)]
 pub enum Route {
@@ -11,6 +11,8 @@ pub enum Route {
     #[not_found]
     #[at("/404")]
     NotFound,
+    #[at("/start")]
+    Start,
 }
 
 pub enum Msg {
@@ -60,6 +62,9 @@ fn switch(routes: &Route) -> Html {
         }
         Route::NotFound => {
             html! { <PageNotFound /> }
+        }
+        Route::Start => {
+            html! { <Start /> }
         }
     }
 }

@@ -1,8 +1,8 @@
 use yew::prelude::*;
 
-pub struct Home;
+pub struct Start;
 
-impl Component for Home {
+impl Component for Start {
     type Message = ();
     type Properties = ();
 
@@ -12,10 +12,12 @@ impl Component for Home {
 
     fn view(&self, _ctx: &Context<Self>) -> Html {
         html! {
-            <header>
-            <h1>{ "Hi! 👋 My name is jjjjj
-            I'm a game developer student" }</h1>
-            </header>
+            <div class="page-not-found">
+                    <h1>
+                        { "Start" }
+                    </h1>
+
+            </div>
         }
     }
 }

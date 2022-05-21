@@ -1,35 +1,41 @@
-
 html {
 	box-sizing: border-box;
 }
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: inherit;
+
 	&:before {
 		margin: 0;
 		padding: 0;
 		box-sizing: inherit;
 	}
+
 	&:after {
 		margin: 0;
 		padding: 0;
 		box-sizing: inherit;
 	}
 }
+
 body {
 	padding: 2rem;
-	font-size: 1.75rem;
+	font-size: 1.5rem;
 	line-height: 1.3;
 	color: #222;
 }
+
 a {
 	color: var(--main-bg-color);
 	font-weight: 600;
 	font-style: italic;
 }
+
 p {
 	letter-spacing: 0.01em;
+
 	>img {
 		vertical-align: middle;
 	}
@@ -39,6 +45,7 @@ header {
 	margin: 2rem auto;
 	padding: 2rem 0;
 	max-width: 80rem;
+
 	p {
 		a {
 			color: #fff;
@@ -46,26 +53,30 @@ header {
 			text-decoration: none;
 		}
 	}
+
 	>img {
 		margin: 2rem 0;
 	}
 }
+
 footer {
 	margin: 2rem auto;
 	padding: 2rem 0;
 	max-width: 80rem;
 	text-align: center;
+
 	p {
 		margin: 1rem 0;
 	}
 }
 
 .page-not-found {
-  text-align: center;
-  h2 {
-    font-weight: 300;
-    margin: 4rem 0;
-  }
+	text-align: center;
+
+	h2 {
+		font-weight: 300;
+		margin: 4rem 0;
+	}
 
 }
 
@@ -80,14 +91,17 @@ section {
 	background-repeat: no-repeat;
 	background-size: auto 100%;
 	background-position: right bottom;
+
 	>div {
 		padding: 3rem;
 	}
+
 	h2 {
 		&:not(:first-child) {
 			margin: 1rem 0 0;
 		}
 	}
+
 	div {
 		p {
 			margin: 2rem 0;
@@ -95,9 +109,11 @@ section {
 		}
 	}
 }
+
 @media (min-width: 70rem) {
 	section {
 		display: flex;
+
 		>div {
 			max-width: 50%;
 		}

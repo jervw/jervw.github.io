@@ -7,6 +7,8 @@ pub enum Routes {
     Home,
     #[to = "/"]
     Index,
+    #[to = "/start"]
+    Start,
 }
 
 pub struct Router;
