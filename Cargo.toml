@@ -5,4 +5,3 @@ edition = "2021"
 
 [dependencies]
 yew = { version = "0.19.3"}
-yew-router = "0.16"
