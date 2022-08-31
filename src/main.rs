@@ -1,13 +1,7 @@
 use yew::prelude::*;
 
-extern crate wee_alloc;
-
-// Use `wee_alloc` as the global allocator.
-#[global_allocator]
-static ALLOC: wee_alloc::WeeAlloc = wee_alloc::WeeAlloc::INIT;
-
 mod components;
-use components::{footer::Footer, info::Info};
+use components::{footer::Footer, info::Info, portfolio::Portfolio};
 
 pub enum ColorTheme {
     Latte,
@@ -23,11 +17,12 @@ struct ThemeState {
 fn app() -> Html {
     html! {
         <>
-            <div class="container">
+            <div class="main-container">
                 <Info />
+                <Portfolio />
             </div>
             <footer>
-                <Footer /> 
+                <Footer />
             </footer>
         </>
     }

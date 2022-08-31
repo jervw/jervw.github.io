@@ -12,9 +12,9 @@ impl Component for Info {
 
     fn view(&self, _ctx: &Context<Self>) -> Html {
         html! {
-            <div class="info">
+            <div class="info-container">
                 <h1>{ "Jere Vuola" }</h1>
-                <div class="tagline">{ "Software Engineer" }</div>
+                <div class="tagline"> { "Software Engineer" } </div>
                 <fieldset>
                     <legend>{ "About me" }</legend>
                     <ul>
@@ -30,7 +30,7 @@ impl Component for Info {
                 </fieldset>
 
                 <fieldset>
-                    <legend>{ "Skills" }</legend>
+                    <legend> { "Skills" } </legend>
                     <ul>
                         <li>
                             <i class="fas fa-code"></i>
@@ -43,7 +43,7 @@ impl Component for Info {
                     </ul>
                 </fieldset>
                 <fieldset>
-                    <legend>{ "Links" }</legend>
+                    <legend> { "Links" } </legend>
                     <ul class="links">
                         <li>
                             <i class="fab fa-github-square"></i>
