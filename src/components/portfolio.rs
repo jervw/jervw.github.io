@@ -15,7 +15,7 @@ impl Component for Portfolio {
             <div class="portfolio-container">
                 <h1> { "Portfolio" } </h1>
                 <div class="tagline">{ "A Selection of my Best Works" } </div>
-                
+
                 <div class="portfolio">
                     <fieldset class="portfolio-item">
                         <legend> { "repo1" } </legend>
@@ -32,7 +32,41 @@ impl Component for Portfolio {
                                     { "jervw/repo1" }
                                 </a>
                             </div>
-                        </fieldset>
+                    </fieldset>
+
+                    <fieldset class="portfolio-item">
+                        <legend> { "repo2" } </legend>
+                            <div>
+                                { "Repository description" }
+                            </div>
+                            <div>
+                                <i class="fas fa-hammer"></i>
+                                {"Rust"}
+                            </div>
+                            <div>
+                                <i class="fas fa-code-branch"></i>
+                                <a href="https://github.com/jervw/repo1">
+                                    { "jervw/repo1" }
+                                </a>
+                            </div>
+                    </fieldset>
+                    
+                    <fieldset class="portfolio-item">
+                        <legend> { "repo3" } </legend>
+                            <div>
+                                { "Repository description" }
+                            </div>
+                            <div>
+                                <i class="fas fa-hammer"></i>
+                                {"Rust"}
+                            </div>
+                            <div>
+                                <i class="fas fa-code-branch"></i>
+                                <a href="https://github.com/jervw/repo1">
+                                    { "jervw/repo1" }
+                                </a>
+                            </div>
+                    </fieldset>
                 </div>
             </div>
         }
