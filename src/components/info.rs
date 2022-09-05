@@ -47,8 +47,8 @@ impl Component for Info {
                     <ul class="links">
                         <li>
                             <i class="fab fa-github-square"></i>
-                            <a href="https://github.com/jervw"> 
-                            { "Github" } 
+                            <a href="https://github.com/jervw">
+                            { "Github" }
                             </a>
                         </li>
                         <li>

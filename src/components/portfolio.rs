@@ -50,7 +50,7 @@ impl Component for Portfolio {
                                 </a>
                             </div>
                     </fieldset>
-                    
+
                     <fieldset class="portfolio-item">
                         <legend> { "repo3" } </legend>
                             <div>
