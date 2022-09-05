@@ -1,4 +1,4 @@
-# Personal website [(Link)](jervw.github.io/website)
+# Personal website [(Link)](https://jervw.github.io/website/)
 
 My personal website, built with Sass and the [Catppuccin theme](https://github.com/catppuccin/catppuccin).
 
