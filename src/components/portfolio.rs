@@ -18,9 +18,9 @@ impl Component for Portfolio {
 
                 <div class="portfolio">
                     <fieldset class="portfolio-item">
-                        <legend> { "repo1" } </legend>
+                        <legend> { "urbaani-cli" } </legend>
                             <div>
-                                { "Repository description" }
+                                { "word dictionary on your terminal" }
                             </div>
                             <div>
                                 <i class="fas fa-hammer"></i>
@@ -28,42 +28,25 @@ impl Component for Portfolio {
                             </div>
                             <div>
                                 <i class="fas fa-code-branch"></i>
-                                <a href="https://github.com/jervw/repo1">
-                                    { "jervw/repo1" }
+                                <a href="https://github.com/jervw/urbaani-cli">
+                                    { "jervw/urbaani-cli" }
                                 </a>
                             </div>
                     </fieldset>
 
                     <fieldset class="portfolio-item">
-                        <legend> { "repo2" } </legend>
+                        <legend> { "chess-engine" } </legend>
                             <div>
-                                { "Repository description" }
+                                { "chess program using Negamax Alpha-Beta Pruning" }
                             </div>
                             <div>
                                 <i class="fas fa-hammer"></i>
-                                {"Rust"}
+                                {"C++"}
                             </div>
                             <div>
                                 <i class="fas fa-code-branch"></i>
-                                <a href="https://github.com/jervw/repo1">
-                                    { "jervw/repo1" }
-                                </a>
-                            </div>
-                    </fieldset>
-
-                    <fieldset class="portfolio-item">
-                        <legend> { "repo3" } </legend>
-                            <div>
-                                { "Repository description" }
-                            </div>
-                            <div>
-                                <i class="fas fa-hammer"></i>
-                                {"Rust"}
-                            </div>
-                            <div>
-                                <i class="fas fa-code-branch"></i>
-                                <a href="https://github.com/jervw/repo1">
-                                    { "jervw/repo1" }
+                                <a href="https://github.com/jervw/chess-engine">
+                                    { "jervw/chess-engine" }
                                 </a>
                             </div>
                     </fieldset>

@@ -63,12 +63,12 @@ impl Component for Info {
                             { "vuolajere@gmail.com" }
                             </a>
                         </li>
-                        <li>
-                            <i class="fas fa-file"></i>
-                            <a href="">
-                            { "Curriculum vitae" }
-                            </a>
-                        </li>
+                        //<li>
+                            //<i class="fas fa-file"></i>
+                            //<a href="">
+                            //{ "Curriculum vitae" }
+                            //</a>
+                        //</li>
                     </ul>
                 </fieldset>
             </div>
