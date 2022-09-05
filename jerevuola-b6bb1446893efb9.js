@@ -512,7 +512,7 @@ function initSync(bytes) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('jerevuola-9b57e55ca5344c00_bg.wasm', import.meta.url);
+        input = new URL('jerevuola-b6bb1446893efb9_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 
