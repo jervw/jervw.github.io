@@ -1,6 +1,6 @@
 # Personal website [(Link)](https://jervw.github.io/website/)
 
-My personal website, built with Sass and the [Catppuccin theme](https://github.com/catppuccin/catppuccin).
+My personal website written in rust via yew/wasm
 
 ## Credits
 
