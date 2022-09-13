@@ -1,7 +1,15 @@
 [package]
 name = "jerevuola"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 
 [dependencies]
-yew = { version = "0.19.3"}
+yew = "0.19.3"
+
+
+# wasm binary optimizations
+[profile.release]
+panic = 'abort'
+codegen-units = 1
+opt-level = 'z'
+lto = true
