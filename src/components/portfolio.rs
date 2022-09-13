@@ -3,7 +3,7 @@ use yew::prelude::*;
 use crate::components::project_card::ProjectCard;
 use crate::data::ProjectList;
 
-#[derive(PartialEq, Properties)]
+#[derive(PartialEq, Eq, Properties)]
 pub struct Props {
     pub list: &'static ProjectList,
 }

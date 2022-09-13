@@ -1,4 +1,4 @@
-#[derive(PartialEq)]
+#[derive(PartialEq, Eq)]
 pub struct Project {
     pub name: &'static str,
     pub description: &'static str,

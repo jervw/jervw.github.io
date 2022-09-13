@@ -2,7 +2,7 @@ use yew::prelude::*;
 
 use crate::data::Project;
 
-#[derive(PartialEq, Properties)]
+#[derive(PartialEq, Eq, Properties)]
 pub struct Props {
     pub project: &'static Project,
 }
