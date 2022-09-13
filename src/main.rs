@@ -1,7 +1,10 @@
 use yew::prelude::*;
 
 mod components;
+mod data;
+
 use components::{footer::Footer, info::Info, portfolio::Portfolio};
+use data::PROJECT_LIST;
 
 pub enum ColorTheme {
     Latte,
@@ -19,7 +22,7 @@ fn app() -> Html {
         <>
             <div class="main-container">
                 <Info />
-                <Portfolio />
+                <Portfolio list={&PROJECT_LIST} />
             </div>
             <footer>
                 <Footer />
