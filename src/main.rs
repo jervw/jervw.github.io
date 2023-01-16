@@ -13,12 +13,12 @@ fn app() -> Html {
     html! {
         <>
             <div class="main-container">
-                <Info />
+                <Info/>
                 <Portfolio list={&PROJECT_LIST} />
                 <Theme />
             </div>
             <footer>
-                <Footer />
+                <Footer/>
             </footer>
         </>
     }
@@ -26,6 +26,5 @@ fn app() -> Html {
 
 // entry
 fn main() {
-    wasm_logger::init(wasm_logger::Config::default());
     yew::start_app::<App>();
 }
