@@ -8,9 +8,17 @@ pub struct Project {
     pub repo_name: &'static str,
 }
 
-pub type ProjectList = [Project; 2];
+pub type ProjectList = [Project; 3];
 
 pub static PROJECT_LIST: ProjectList = [
+    Project {
+        name: "dono",
+        description: "A CLI tool to show your GitHub contributions",
+        languages: &["Rust"],
+        url: "https://github.com/jervw/dono",
+        owner: "jervw",
+        repo_name: "dono",
+    },
     Project {
         name: "urbaani-cli",
         description: "word dictionary on your terminal",

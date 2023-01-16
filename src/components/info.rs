@@ -13,7 +13,7 @@ impl Component for Info {
     fn view(&self, _ctx: &Context<Self>) -> Html {
         html! {
             <div class="info-container">
-                <h1>{ "Jere Vuola" }</h1>
+            <h1>{ "Jere Vuola" }</h1>
                 <div class="tagline"> { "Software Engineer" } </div>
                 <fieldset>
                     <legend>{ "About me" }</legend>
@@ -53,7 +53,7 @@ impl Component for Info {
                         </li>
                         <li>
                             <i class="fab fa-linkedin"></i>
-                            <a href="https://www.linkedin.com/..todo">
+                            <a href="https://www.linkedin.com/in/jerevuola">
                             { "LinkedIn" }
                             </a>
                         </li>
@@ -63,12 +63,12 @@ impl Component for Info {
                             { "vuolajere@gmail.com" }
                             </a>
                         </li>
-                        //<li>
-                            //<i class="fas fa-file"></i>
-                            //<a href="">
-                            //{ "Curriculum vitae" }
-                            //</a>
-                        //</li>
+                        <li>
+                            <i class="fas fa-key"></i>
+                            <a href="https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x99627fcbf2f3fd52">
+                                { "GPG" }
+                            </a>
+                        </li>
                     </ul>
                 </fieldset>
             </div>
