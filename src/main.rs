@@ -3,18 +3,10 @@ use yew::prelude::*;
 mod components;
 mod data;
 
-use components::{footer::Footer, info::Info, portfolio::Portfolio};
+pub mod utils;
+
+use components::{footer::Footer, info::Info, portfolio::Portfolio, theme::Theme};
 use data::PROJECT_LIST;
-
-pub enum ColorTheme {
-    Latte,
-    Mocha,
-}
-
-#[derive(PartialEq, Debug)]
-struct ThemeState {
-    current: &'static str,
-}
 
 #[function_component(App)]
 fn app() -> Html {
@@ -23,6 +15,7 @@ fn app() -> Html {
             <div class="main-container">
                 <Info />
                 <Portfolio list={&PROJECT_LIST} />
+                <Theme />
             </div>
             <footer>
                 <Footer />
@@ -33,5 +26,6 @@ fn app() -> Html {
 
 // entry
 fn main() {
+    wasm_logger::init(wasm_logger::Config::default());
     yew::start_app::<App>();
 }

@@ -1,0 +1,52 @@
+$themes: (
+  "bg-primary": (
+    "dark": #1e1e2e,
+    "light": #eff1f5,
+  ),
+  "bg-secondary": (
+    "dark": #181926,
+    "light": #181926,
+  ),
+  "fg-primary": (
+    "dark": #cad3f5,
+    "light": #4c4f69,
+  ),
+  "fg-secondary": (
+    "dark": #6e738d,
+    "light": #6e738d,
+  ),
+  "green": (
+    "dark": #a6e3a1,
+    "light": #40a02b,
+  ),
+  "teal": (
+    "dark": #94e2d5,
+    "light": #179299,
+  ),
+  "border": (
+    "dark": #d9e0ee,
+    "light": #1e1e2e,
+  ),
+  "gray": (
+    "dark": #6e6c7e,
+    "light": #6e6c7e,
+  ),
+);
+
+@mixin styles($mode) {
+  @each $key, $map in $themes {
+    @each $prop, $color in $map {
+      @if $prop == $mode {
+        --#{$key}: #{$color};
+      }
+    }
+  }
+}
+
+.dark {
+  @include styles("dark");
+}
+
+.light {
+  @include styles("light");
+}
