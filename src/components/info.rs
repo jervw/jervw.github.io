@@ -38,7 +38,7 @@ impl Component for Info {
                         </li>
                         <li>
                             <i class="fas fa-desktop"></i>
-                            { "Git, Neovim, Docker, Linux" }
+                            { "Git, Linux, Docker, Kubernetes" }
                         </li>
                     </ul>
                 </fieldset>
