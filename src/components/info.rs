@@ -26,6 +26,10 @@ impl Component for Info {
                             <i class="fas fa-university"></i>
                             { "Metropolia UAS" }
                         </li>
+                        <li>
+                            <i class="fas fa-briefcase"></i>
+                            { "AFRY" }
+                        </li>
                     </ul>
                 </fieldset>
 
@@ -34,7 +38,7 @@ impl Component for Info {
                     <ul>
                         <li>
                             <i class="fas fa-code"></i>
-                            { "Rust, Python, C++, C#" }
+                            { "Rust, C++, Python, C#" }
                         </li>
                         <li>
                             <i class="fas fa-desktop"></i>
@@ -65,7 +69,7 @@ impl Component for Info {
                         </li>
                         <li>
                             <i class="fas fa-key"></i>
-                            <a href="https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x99627fcbf2f3fd52">
+                            <a href="https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2a19308ba17f69683bb4ff821e3fce4bf382e951">
                                 { "GPG" }
                             </a>
                         </li>
