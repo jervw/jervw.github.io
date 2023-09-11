@@ -12,5 +12,5 @@ wasm-bindgen = "0.2.87"
 [profile.release]
 panic = 'abort'
 codegen-units = 1
-opt-level = 'z'
+opt-level = 's'
 lto = true
