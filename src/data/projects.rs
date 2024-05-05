@@ -8,7 +8,7 @@ pub struct Project {
     pub repo_name: &'static str,
 }
 
-pub type ProjectList = [Project; 3];
+pub type ProjectList = [Project; 4];
 
 pub static PROJECT_LIST: ProjectList = [
     Project {
@@ -18,6 +18,14 @@ pub static PROJECT_LIST: ProjectList = [
         url: "https://github.com/jervw/nixos-config",
         owner: "jervw",
         repo_name: "nixos-config",
+    },
+    Project {
+        name: "portfolio",
+        description: "my personal website for showcasing projects",
+        languages: &["Rust"],
+        url: "https://github.com/jervw/jervw.github.io",
+        owner: "jervw",
+        repo_name: "jervw.github.io",
     },
     Project {
         name: "dono",
