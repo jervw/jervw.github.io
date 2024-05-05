@@ -1,17 +1,30 @@
-<!DOCTYPE html><html lang="en"><head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Jere Vuola</title>
-    <base href="/">
-    <link rel="stylesheet" href="/index-d6006f184cd8d547.css">
-    <link rel="icon" href="/favicon-7a187dc8cc543a31.png">
+    <base href="/" />
+    <link rel="stylesheet" href="/index-40c5e21c49ea6762.css" integrity="sha384&#x2D;F5Z6atOFW0ZLFE&#x2F;AGEZmjx5Klu4LtGPGLveujx&#x2B;TxyXP9giaHH0AwsoBFcAolqp5"/>
+    <link rel="icon" href="/favicon-7a187dc8cc543a31.png" integrity="sha384&#x2D;u68Uk3OM8uiqd6eKC2y2Nkg&#x2F;t0d&#x2F;cb&#x2F;rlR4TRPcNwJ0MYG&#x2B;fOXidTbMVZELL2KEp"/>
     <script src="https://kit.fontawesome.com/5a72314259.js" crossorigin="anonymous"></script>
 
-<link rel="preload" href="/jerevuola-93ac5db23edbe4f2_bg.wasm" as="fetch" type="application/wasm" crossorigin="">
-<link rel="modulepreload" href="/jerevuola-93ac5db23edbe4f2.js"></head>
+<link rel="modulepreload" href="/jerevuola-49f03b4073174dbf.js" crossorigin=anonymous integrity="sha384-7G28EbRuYQdbXf2DatMgoAvUETKksglZa6WpzF3R83fajp+/q0ZPpysBxbF1BZhG">
+<link rel="preload" href="/jerevuola-49f03b4073174dbf_bg.wasm" crossorigin=anonymous integrity="sha384-DKOoOLeQELLIFP/YTlWfLDWyPhXiTHVfadhgVjWt667wqcRJZF6ZE0Lyb4MHn/fj" as="fetch" type="application/wasm"></head>
 
 <body>
+<script type="module">
+import init, * as bindings from '/jerevuola-49f03b4073174dbf.js';
+const wasm = await init('/jerevuola-49f03b4073174dbf_bg.wasm');
 
 
-<script type="module">import init from '/jerevuola-93ac5db23edbe4f2.js';init('/jerevuola-93ac5db23edbe4f2_bg.wasm');</script></body></html>
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+
+</html>
