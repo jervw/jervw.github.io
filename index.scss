@@ -97,21 +97,20 @@ ul {
 
 /* Theme switcher */
 .theme-switch {
-  display: block;
-  margin: 4px 15px;
-  position: absolute;
-  border: none;
-  right: 0;
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  z-index: 999;
+}
 
-  button {
-    font-size: 25px;
-    border-radius: 50%;
-    border: none;
-    cursor: pointer;
-    background-color: var(--bg-primary);
-    color: var(--fg-primary);
-    transition: all 0.2s ease;
-  }
+.theme-switch button {
+  font-size: 25px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: var(--bg-primary);
+  color: var(--fg-primary);
+  transition: all 0.2s ease;
 }
 
 /* Footer content */
@@ -205,10 +204,8 @@ a:hover {
   }
 
   .theme-switch {
-    float: right;
-    top: 0;
-    right: 0;
-    padding: 10px 0;
+    top: 5px;
+    right: 5px;
   }
 
   footer {
