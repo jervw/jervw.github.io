@@ -12,8 +12,16 @@ pub type ProjectList = [Project; 3];
 
 pub static PROJECT_LIST: ProjectList = [
     Project {
+        name: "nixos-config",
+        description: "dotfiles and nixos system configurations",
+        languages: &["Nix"],
+        url: "https://github.com/jervw/nixos-config",
+        owner: "jervw",
+        repo_name: "nixos-config",
+    },
+    Project {
         name: "dono",
-        description: "A CLI tool to show your GitHub contributions",
+        description: "a CLI tool to show your GitHub contributions",
         languages: &["Rust"],
         url: "https://github.com/jervw/dono",
         owner: "jervw",
@@ -26,13 +34,5 @@ pub static PROJECT_LIST: ProjectList = [
         url: "https://github.com/jervw/urbaani-cli",
         owner: "jervw",
         repo_name: "urbaani-cli",
-    },
-    Project {
-        name: "chess-engine",
-        description: "chess program using Negamax Alpha-Beta Pruning",
-        languages: &["C++"],
-        url: "https://github.com/jervw/chess-engine",
-        owner: "jervw",
-        repo_name: "chess-engine",
     },
 ];

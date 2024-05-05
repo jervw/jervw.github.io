@@ -1,12 +1,12 @@
 [package]
 name = "jerevuola"
-version = "0.2.2"
+version = "0.2.3"
 edition = "2021"
 
 [dependencies]
-yew = { version = "0.20.0", features = [ "csr" ] }
-web-sys = { version = "0.3.64", features = ["MediaQueryList"] }
-wasm-bindgen = "0.2.87"
+yew = { version = "0.21.0", features = [ "csr" ] }
+web-sys = { version = "0.3.69", features = ["MediaQueryList"] }
+wasm-bindgen = "0.2.92"
 
 # wasm binary optimizations
 [profile.release]

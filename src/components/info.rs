@@ -26,10 +26,11 @@ impl Component for Info {
                             <i class="fas fa-university"></i>
                             { "Metropolia UAS" }
                         </li>
-                        <li>
-                            <i class="fas fa-briefcase"></i>
-                            { "AFRY" }
-                        </li>
+                        // TODO Go get a job :p
+                        // <li>
+                        //     <i class="fas fa-briefcase"></i>
+                        //     { "" }
+                        // </li>
                     </ul>
                 </fieldset>
 
@@ -38,11 +39,11 @@ impl Component for Info {
                     <ul>
                         <li>
                             <i class="fas fa-code"></i>
-                            { "Rust, C++, Python, C#" }
+                            { "C++, Rust, Python, Nix" }
                         </li>
                         <li>
                             <i class="fas fa-desktop"></i>
-                            { "Git, Linux, Docker, Kubernetes" }
+                            { "Git, Linux, Docker, Ansible" }
                         </li>
                     </ul>
                 </fieldset>
@@ -52,7 +53,7 @@ impl Component for Info {
                         <li>
                             <i class="fab fa-github-square"></i>
                             <a href="https://github.com/jervw">
-                            { "Github" }
+                            { "GitHub" }
                             </a>
                         </li>
                         <li>
@@ -63,13 +64,13 @@ impl Component for Info {
                         </li>
                         <li>
                             <i class="fas fa-envelope-square"></i>
-                            <a href="mailto:vuolajere@gmail.com">
-                            { "vuolajere@gmail.com" }
+                            <a href="mailto:jervw@pm.me">
+                            { "jervw@pm.me" }
                             </a>
                         </li>
                         <li>
                             <i class="fas fa-key"></i>
-                            <a href="https://keyserver.ubuntu.com/pks/lookup?op=get&search=0x2a19308ba17f69683bb4ff821e3fce4bf382e951">
+                            <a href="https://keys.openpgp.org/vks/v1/by-fingerprint/56C25B5B20756352B4B0E17EF188371747DA5895">
                                 { "GPG" }
                             </a>
                         </li>

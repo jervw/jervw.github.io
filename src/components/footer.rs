@@ -14,7 +14,7 @@ impl Component for Footer {
         html! {
             <div class="footer-container">
             <div class="footer-left">
-                <div><i class="fas fa-copyright"></i>{ "2023 Jere Vuola. " } <br class="footer-break"/>{ "All rights reserved." }</div>
+                <div><i class="fas fa-copyright"></i>{ "2024 Jere Vuola. " } <br class="footer-break"/>{ "All rights reserved." }</div>
                 <div>{ "Powered by Yew" }</div>
             </div>
             <div class="footer-right">
